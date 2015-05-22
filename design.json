@@ -1,0 +1,84 @@
+{
+  "class": "LifeForm",
+  "stat": {
+    "Attack": 0,
+    "Defense": 0,
+    "Health": 0,
+    "Mana": 0
+  }
+}
+
+{
+  "inherits": "LifeForm",
+  "class": "Animal",
+  "stat": {
+    "Agility": 0,
+    "Dexterity": 0,
+    "Endurance": 0,
+    "Speed": 0,
+    "Strength": 0,
+    "Wisdom": 0,
+    "Intelligence": 0
+  }
+}
+
+{
+  "inherits": "Animal",
+  "class": "Human",
+  "stat": {
+    "Lockpicking": 0,
+    "Pickpocket": 0,
+    "Sneak": 0,
+    "Speech": 0,
+    "Merchantile": 0,
+  },
+  "skills": {
+    "combat": {
+      "Archery": 0,
+      "Block": 0,
+      "Heavy Armor": 0,
+      "Light Armor": 0,
+      "One-Handed": 0,
+      "Two-Handed": 0,
+    },
+    "magic": {
+      "Alteration": 0,
+      "Conjuration": 0,
+      "Destruction": 0,
+      "Illusion": 0,
+      "Restoration": 0,
+    },
+    "craft": {
+      "Alchemy": 0,
+      "Enchanting": 0,
+      "Smithing": 0,
+      "Mining": 0,
+      "Masonry": 0,
+      "Stone Carving": 0,
+      "Wood Cutting": 0,
+      "Carpentry": 0,
+      "Wood Carving": 0,
+      "Melting": 0,
+      "Blacksmithing": 0,
+      "Metal Working": 0,
+      "Gem Cutting": 0,
+      "Jewelry Making": 0,
+      "Weaving": 0,
+      "Tailoring": 0,
+      "Pottery": 0,
+      "Leather Working": 0,
+      "Bone Carving": 0,
+      "Butchery": 0,
+      "Engineering": 0,
+      "Machining": 0,
+      "Animal Husbandry": 0,
+      "Farming": 0,
+      "Cooking": 0,
+      "Horticulture": 0,
+      "Brewing": 0,
+      "Medic": 0,
+      "Construction": 0,
+      "Hauling": 0,
+    },
+  }
+}
